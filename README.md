@@ -18,7 +18,9 @@ In this project, we will explore how cointegrated cryptocurrency pair could lead
    git clone https://github.com/AndyTKH/Cointegration-Crypto.git                                                          
    cd Cointegration-Crypto
    ```
-4. Create and activate a new environment, note that we specify a path for the environment(Change to your own path):
+   **Note:** We will need to copy all the files from above `Cointegration-Crypto` directory to a specific project directory in the later steps.
+   
+4. Create and activate a new environment, note that we specify a path for the environment ( please change this to your own path ):
    
    - __Linux__ or __Mac__: 
 	```
@@ -30,17 +32,14 @@ In this project, we will explore how cointegrated cryptocurrency pair could lead
 	conda create --prefix /Users/AndyTan/Documents/cointegration_crypto
 	activate /Users/AndyTan/Documents/cointegration_crypto
 	```
-6. Install the required pip packages, as specified in the requirement text file: 
+5. Install the required pip packages, as specified in the requirement text file: 
    ```
    pip install -r requirements.txt
    ```
-1. Open your terminal and clone the repository, then navigate to the the project folder.
-```
-git clone https://github.com/AndyTKH/Cointegration-Crypto.git                                                          
-cd Cointegration-Crypto
-```
-2. Open the notebook to view the project. 
-```
-jupyter notebook cointegrated_crypto.ipynb
-```
-3. Simply close the terminal window to exit Jupyter Notebook. 
+6. Copy all files from step 3 and paste it to your current directory, assume my current directory is `/Users/AndyTan/Documents/cointegration_crypto` .
+
+7. Now, you can open the notebook to view the project:	
+   ```
+   jupyter notebook cointegrated_crypto.ipynb
+   ```
+8. Simply close the terminal window to exit Jupyter Notebook. 
