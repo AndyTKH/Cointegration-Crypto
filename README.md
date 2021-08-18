@@ -7,6 +7,33 @@ In this project, we will explore how cointegrated cryptocurrency pair could lead
 
 ### Instructions
 
+## Configure and Manage Your Environment with Anaconda
+1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html) on your computer.
+2. Install ```git``` for working with Github from your terminal window with command:  
+   ``` 
+   conda install git 
+   ``` 
+3. Clone this repository to your local computer, and navigate to your downloaded folder with command:
+   ```
+   git clone https://github.com/AndyTKH/Cointegration-Crypto.git                                                          
+   cd Cointegration-Crypto
+   ```
+4. Create and activate a new environment, note that we specify a path for the environment(Change to your own path):
+   
+   - __Linux__ or __Mac__: 
+	```
+	conda create --prefix /Users/AndyTan/Documents/cointegration_crypto
+	source activate /Users/AndyTan/Documents/cointegration_crypto
+	```
+	- __Windows__: 
+	```
+	conda create --prefix /Users/AndyTan/Documents/cointegration_crypto
+	activate /Users/AndyTan/Documents/cointegration_crypto
+	```
+6. Install the required pip packages, as specified in the requirement text file: 
+   ```
+   pip install -r requirements.txt
+   ```
 1. Open your terminal and clone the repository, then navigate to the the project folder.
 ```
 git clone https://github.com/AndyTKH/Cointegration-Crypto.git                                                          
