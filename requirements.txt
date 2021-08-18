@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+click
+pyyaml
+munch
+enum34
+multipledispatch
+statsmodels
+mpl_finance
+mplfinance
